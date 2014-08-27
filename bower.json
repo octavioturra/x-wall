@@ -1,0 +1,19 @@
+{
+    "name": "x-wall",
+    "version": "0.0.0",
+    "description": "It's a wall element based in masonry",
+    "license": "MIT",
+    "main": "dist/x-wall.html",
+    "keywords": [
+        "polymer",
+        "web-components"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "polymer": "Polymer/polymer#~0.3.3"
+    }
+}
