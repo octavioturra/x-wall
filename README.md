@@ -1,6 +1,6 @@
 # &lt;x-wall&gt;
 
-> It's a wall element based in masonry
+> Infinite scroll wall
 
 ## Demo
 

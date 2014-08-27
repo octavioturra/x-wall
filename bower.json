@@ -1,7 +1,7 @@
 {
     "name": "x-wall",
-    "version": "0.0.0",
-    "description": "It's a wall element based in masonry",
+    "version": "0.0.1",
+    "description": "Infinite scroll wall",
     "license": "MIT",
     "main": "dist/x-wall.html",
     "keywords": [

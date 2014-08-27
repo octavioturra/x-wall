@@ -13,7 +13,21 @@
 <body>
 
     <!-- Using Custom Elements -->
-    <x-wall></x-wall>
-
+    <x-wall>
+			<div class=".box">
+				<p>This</p>
+				<p>is</p>
+				<p>a</p>
+				<p>test:</p>
+				<p>{{d.a}}</p>
+				<hr>
+			</div>
+    </x-wall>
+		<script>
+			window.addEventListener('polymer-ready', function(){
+				var wall = document.querySelector('x-wall');
+				wall.data = [{a:1},{a:2},{a:3},{a:4},{a:5}];
+			});
+		</script>
 </body>
 </html>
